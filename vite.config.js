@@ -37,7 +37,8 @@ export default defineConfig({
       workbox: {
         globPatterns: ['**/*.{js,css,html,ico,png,svg,mp3,jpg}'],
         navigateFallback: '/fitter/index.html',
-        navigateFallbackDenylist: [/^\/api\//]
+        navigateFallbackDenylist: [/^\/api\//],
+        maximumFileSizeToCacheInBytes: 6 * 1024 * 1024 // 6 MB (pwa-512x512.png is ~5.12 MB)
       }
     })
   ],
