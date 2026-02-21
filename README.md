@@ -1,3 +1,37 @@
+# Fitter
+
+A workout app built with React + Vite.
+
+## GitHub Pages Deployment
+
+The app is configured for deployment to GitHub Pages at `https://<username>.github.io/fitter/`.
+
+### Automatic deployment (recommended)
+
+1. In your repo, go to **Settings → Pages**
+2. Under **Build and deployment**, set **Source** to **Deploy from a branch**
+3. Select the `gh-pages` branch and `/ (root)` folder
+4. Push to `main` or `master` — the workflow will build and deploy to `gh-pages` automatically
+
+### Manual deployment
+
+```bash
+npm run deploy
+```
+
+Then in **Settings → Pages**, set **Source** to the `gh-pages` branch.
+
+### Local development
+
+For local dev, the app runs at `http://localhost:5173/`. To test the production build with the correct base path:
+
+```bash
+npm run build:pages
+npm run preview
+```
+
+---
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
