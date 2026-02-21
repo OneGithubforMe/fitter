@@ -1,8 +1,9 @@
 import { Link } from "react-router-dom"
 import workoutsData from "../assets/workouts.json"
 
+const workouts = Array.isArray(workoutsData) ? workoutsData : workoutsData.workouts
+
 function WorkoutList() {
-  const { workouts } = workoutsData
 
   return (
     <div style={{ padding: "2rem", maxWidth: "600px", margin: "0 auto" }}>

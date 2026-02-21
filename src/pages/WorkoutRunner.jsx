@@ -4,6 +4,19 @@ import restImage from "../assets/rest.jpg"
 import startSound from "../assets/start.mp3"
 import restSound from "../assets/rest.mp3"
 
+const exerciseImageModules = import.meta.glob("../assets/exercises/*", {
+  eager: true,
+  query: "?url",
+  import: "default",
+})
+
+function getExerciseImageUrl(imagePath) {
+  if (!imagePath) return null
+  const filename = imagePath.replace(/^.*\//, "")
+  const key = `../assets/exercises/${filename}`
+  return exerciseImageModules[key] ?? null
+}
+
 function WorkoutRunner() {
   const { id } = useParams()
   const { state } = useLocation()
@@ -165,10 +178,11 @@ function WorkoutRunner() {
     justifyContent: "center",
   }
 
+  const exerciseImageUrl = currentExercise?.image
+    ? getExerciseImageUrl(currentExercise.image) || currentExercise.image
+    : null
   const showExerciseImage =
-    phase === "exercise" &&
-    currentExercise?.image &&
-    !exerciseImageError
+    phase === "exercise" && exerciseImageUrl && !exerciseImageError
 
   return (
     <div style={containerStyle}>
@@ -188,7 +202,7 @@ function WorkoutRunner() {
             {showExerciseImage ? (
               <img
                 key={`${exerciseIndex}-${repIndex}`}
-                src={currentExercise.image}
+                src={exerciseImageUrl}
                 alt={currentExercise.exercise}
                 style={{
                   width: "100%",

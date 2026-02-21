@@ -1,25 +1,57 @@
-import { useState } from "react"
+import { useMemo, useState } from "react"
 import { useParams, Link, useNavigate } from "react-router-dom"
 import workoutsData from "../assets/workouts.json"
+import exercisesData from "../assets/exercises.json"
+
+const exercisesById = Object.fromEntries(
+  exercisesData.map((ex) => [ex.id, ex])
+)
+
+const exerciseImageModules = import.meta.glob("../assets/exercises/*", {
+  eager: true,
+  query: "?url",
+  import: "default",
+})
+
+function getExerciseImageUrl(imagePath) {
+  if (!imagePath) return null
+  const filename = imagePath.replace(/^.*\//, "")
+  const key = `../assets/exercises/${filename}`
+  return exerciseImageModules[key] ?? null
+}
+
+const workouts = Array.isArray(workoutsData) ? workoutsData : workoutsData.workouts
 
 function WorkoutSetup() {
   const { id } = useParams()
   const navigate = useNavigate()
-  const { workouts } = workoutsData
   const workout = workouts[parseInt(id, 10)]
+
+  const resolvedExercises = useMemo(
+    () =>
+      workout
+        ? workout.exercises
+            .map((exerciseId) => exercisesById[exerciseId])
+            .filter(Boolean)
+        : [],
+    [workout]
+  )
 
   const [restTime, setRestTime] = useState(30)
   const [exerciseTime, setExerciseTime] = useState(60)
   const [reps, setReps] = useState(10)
 
   const handleStartWorkout = () => {
-    const exerciseConfigs = workout.exercises.map(() => ({
+    const exerciseConfigs = resolvedExercises.map(() => ({
       time: exerciseTime,
       reps,
     }))
     navigate(`/run/${id}`, {
       state: {
-        workout,
+        workout: {
+          name: workout.name,
+          exercises: resolvedExercises,
+        },
         restTime,
         exerciseConfigs,
       },
@@ -50,11 +82,11 @@ function WorkoutSetup() {
       </Link>
       <h1 style={{ marginBottom: "1.5rem" }}>{workout.name}</h1>
       <p style={{ opacity: 0.8, marginBottom: "1.5rem" }}>
-        {workout.exercises.length} exercises
+        {resolvedExercises.length} exercises
       </p>
 
       <ul style={{ listStyle: "none", padding: 0, margin: 0 }}>
-        {workout.exercises.map((item, index) => (
+        {resolvedExercises.map((item, index) => (
           <li
             key={index}
             style={{
@@ -71,9 +103,9 @@ function WorkoutSetup() {
             <p style={{ margin: 0, opacity: 0.9, lineHeight: 1.6 }}>
               {item.instructions}
             </p>
-            {item.image && (
+            {(getExerciseImageUrl(item.image) || item.image) && (
               <img
-                src={item.image}
+                src={getExerciseImageUrl(item.image) || item.image}
                 alt={item.exercise}
                 style={{
                   marginTop: "1rem",

@@ -1,0 +1,506 @@
+[
+    {
+      "id": "clamshell",
+      "exercise": "Clamshell",
+      "instructions": "Lie on your side with knees bent and feet together. Keeping your feet touching, lift your top knee while keeping hips stable. Lower slowly and repeat.",
+      "image": "src/assets/exercises/clamshell.gif",
+      "tags": ["exercise"]
+    },
+    {
+      "id": "cobra-pose",
+      "exercise": "Cobra Pose",
+      "instructions": "Lie face down with hands under shoulders. Press into your palms and lift your chest while keeping hips grounded. Hold and breathe.",
+      "image": "src/assets/exercises/cobra-pose.jpg",
+      "tags": ["yoga", "stretching"]
+    },
+    {
+      "id": "crescent-lunge",
+      "exercise": "Crescent Lunge",
+      "instructions": "Step one foot forward into a lunge. Raise arms overhead and sink hips down while keeping your chest upright.",
+      "image": "src/assets/exercises/crescent-lunge.jpeg",
+      "tags": ["yoga", "exercise"]
+    },
+    {
+      "id": "curtsy-lunges",
+      "exercise": "Curtsy Lunges",
+      "instructions": "Step one leg diagonally behind the other and bend both knees. Return to standing and repeat on the other side.",
+      "image": "src/assets/exercises/curtsy-lunges.gif",
+      "tags": ["exercise"]
+    },
+    {
+      "id": "dead-bug",
+      "exercise": "Dead Bug",
+      "instructions": "Lie on your back with arms extended upward and knees bent at 90°. Lower opposite arm and leg slowly, then return and switch sides.",
+      "image": "src/assets/exercises/dead-bug.gif",
+      "tags": ["exercise"]
+    },
+    {
+      "id": "donkey-kick",
+      "exercise": "Donkey Kick",
+      "instructions": "Start on hands and knees. Keeping knee bent, lift one leg upward toward the ceiling. Lower and repeat before switching sides.",
+      "image": "src/assets/exercises/donkey-kick.gif",
+      "tags": ["exercise"]
+    },
+    {
+      "id": "downward-dog",
+      "exercise": "Downward Dog Pose",
+      "instructions": "From hands and knees, lift hips toward the ceiling forming an inverted V. Press heels toward the floor and lengthen the spine.",
+      "image": "src/assets/exercises/downward-dog.gif",
+      "tags": ["yoga", "stretching"]
+    },
+    {
+      "id": "fast-squeeze",
+      "exercise": "Fast Squeeze",
+      "instructions": "Quickly tighten and release your pelvic floor muscles. Perform rapid contractions for 10–15 repetitions.",
+      "image": "src/assets/exercises/fast-squeeze.gif",
+      "tags": ["exercise"]
+    },
+    {
+      "id": "figure-four-stretch",
+      "exercise": "Figure Four Stretch",
+      "instructions": "Lie on your back and cross one ankle over the opposite knee. Pull the supporting leg toward your chest to stretch the hip.",
+      "image": "src/assets/exercises/figure-four-stretch.gif",
+      "tags": ["stretching"]
+    },
+    {
+      "id": "fire-hydrants",
+      "exercise": "Fire Hydrants",
+      "instructions": "On hands and knees, lift one knee out to the side while keeping hips stable. Lower slowly and repeat.",
+      "image": "src/assets/exercises/fire-hydrants.gif",
+      "tags": ["exercise"]
+    },
+    {
+      "id": "garland-pose",
+      "exercise": "Garland Pose",
+      "instructions": "Squat deeply with feet flat. Bring palms together at chest and press elbows against knees to open hips.",
+      "image": "src/assets/exercises/garland-pose.gif",
+      "tags": ["yoga", "stretching"]
+    },
+    {
+      "id": "glute-bridge",
+      "exercise": "Glute Bridge",
+      "instructions": "Lie on your back with knees bent and feet flat. Lift hips upward by squeezing glutes, then lower slowly.",
+      "image": "src/assets/exercises/glute-bridge.gif",
+      "tags": ["exercise"]
+    },
+    {
+      "id": "half-roll-down",
+      "exercise": "Half Roll Down",
+      "instructions": "Sit tall with knees bent. Slowly roll halfway back while engaging core, then return to upright position.",
+      "image": "src/assets/exercises/half-roll-down.gif",
+      "tags": ["exercise"]
+    },
+    {
+      "id": "happy-baby-pose",
+      "exercise": "Happy Baby Pose",
+      "instructions": "Lie on your back and grab the outsides of your feet with knees bent. Gently pull knees toward the floor.",
+      "image": "src/assets/exercises/happy-baby-pose.gif",
+      "tags": ["yoga", "stretching"]
+    },
+    {
+      "id": "ice-skater",
+      "exercise": "Ice Skater",
+      "instructions": "Jump laterally from one foot to the other, swinging the opposite leg behind you. Maintain balance and control.",
+      "image": "src/assets/exercises/ice-skater.gif",
+      "tags": ["exercise"]
+    },
+    {
+      "id": "kegel-bridge",
+      "exercise": "Kegel with Bridge",
+      "instructions": "Perform a glute bridge while tightening pelvic floor muscles at the top. Hold briefly before lowering.",
+      "image": "src/assets/exercises/kegel-bridge.gif",
+      "tags": ["exercise"]
+    },
+    {
+      "id": "kegel-march",
+      "exercise": "Kegel with March",
+      "instructions": "In a bridge position, tighten pelvic floor and slowly lift one foot off the ground. Alternate sides.",
+      "image": "src/assets/exercises/kegel-march.gif",
+      "tags": ["exercise"]
+    },
+    {
+      "id": "kegels",
+      "exercise": "Kegels",
+      "instructions": "Tighten pelvic floor muscles as if stopping urine flow. Hold for 5 seconds, relax for 5 seconds. Repeat 10 times.",
+      "image": "src/assets/exercises/kegels.gif",
+      "tags": ["exercise"]
+    },
+    {
+      "id": "knee-to-chest-stretch",
+      "exercise": "Knee to Chest Stretch",
+      "instructions": "Lie on your back and pull one or both knees toward your chest. Hold and breathe deeply.",
+      "image": "src/assets/exercises/knee-to-chest-stretch.gif",
+      "tags": ["stretching"]
+    },
+    {
+      "id": "leg-raise",
+      "exercise": "Leg Raise",
+      "instructions": "Lie flat on your back and slowly lift both legs upward. Lower them back down with control.",
+      "image": "src/assets/exercises/leg-raise.gif",
+      "tags": ["exercise"]
+    },
+    {
+      "id": "legs-up-the-wall",
+      "exercise": "Legs Up the Wall Pose",
+      "instructions": "Lie on your back with legs extended vertically against a wall. Relax and breathe deeply.",
+      "image": "src/assets/exercises/legs-up-the-wall.gif",
+      "tags": ["yoga", "stretching"]
+    },
+    {
+      "id": "locust-pose",
+      "exercise": "Locust Pose",
+      "instructions": "Lie face down and lift chest, arms, and legs off the floor simultaneously. Hold briefly and lower.",
+      "image": "src/assets/exercises/locust-pose.gif",
+      "tags": ["yoga", "exercise"]
+    },
+    {
+      "id": "lunges",
+      "exercise": "Lunges",
+      "instructions": "Step forward and bend both knees until the back knee nearly touches the floor. Return and switch legs.",
+      "image": "src/assets/exercises/lunges.gif",
+      "tags": ["exercise"]
+    },
+    {
+      "id": "lunging-hip-flexor-stretch",
+      "exercise": "Lunging Hip Flexor Stretch",
+      "instructions": "Step into a lunge and lower the back knee to the floor. Push hips forward gently to stretch hip flexors.",
+      "image": "src/assets/exercises/lunging-hip-flexor-stretch.gif",
+      "tags": ["stretching"]
+    },
+    {
+      "id": "marching-hip-raise",
+      "exercise": "Marching Hip Raise",
+      "instructions": "Lie on your back, lift hips into a bridge, and alternate lifting one knee toward your chest.",
+      "image": "src/assets/exercises/marching-hip-raise.gif",
+      "tags": ["exercise"]
+    },
+    {
+      "id": "mini-squat-kegel",
+      "exercise": "Mini Squat Kegel",
+      "instructions": "Perform a shallow squat while tightening pelvic floor muscles. Hold briefly and return to standing.",
+      "image": "src/assets/exercises/mini-squat-kegel.png",
+      "tags": ["exercise"]
+    },
+  {
+    "id": "mountain-pose",
+    "exercise": "Mountain Pose",
+    "instructions": "Stand tall with feet together and arms at your sides. Engage your core and pelvic floor, lengthen your spine, and breathe deeply.",
+    "image": "src/assets/exercises/mountain-pose.gif",
+    "tags": ["pelvic floor", "yoga", "beginner"]
+  },
+  {
+    "id": "pelvic-tilts",
+    "exercise": "Pelvic Tilts",
+    "instructions": "Lie on your back with knees bent. Gently tilt your pelvis upward to flatten your lower back against the floor, then release.",
+    "image": "src/assets/exercises/pelvic-tilts.gif",
+    "tags": ["pelvic floor", "core", "beginner"]
+  },
+  {
+    "id": "pigeon-pose",
+    "exercise": "Pigeon Pose",
+    "instructions": "From a plank position, bring one knee forward toward your wrist and extend the other leg back. Lower hips and hold the stretch.",
+    "image": "src/assets/exercises/pigeon-pose.gif",
+    "tags": ["pelvic floor", "yoga", "stretch"]
+  },
+  {
+    "id": "piriformis-stretch",
+    "exercise": "Piriformis Stretch",
+    "instructions": "Lie on your back, cross one ankle over the opposite knee, and gently pull the bottom thigh toward your chest.",
+    "image": "src/assets/exercises/piriformis-stretch.gif",
+    "tags": ["pelvic floor", "stretch", "glutes"]
+  },
+  {
+    "id": "plank",
+    "exercise": "Plank",
+    "instructions": "Hold your body in a straight line supported by your forearms and toes. Engage core and pelvic floor.",
+    "image": "src/assets/exercises/plank.gif",
+    "tags": ["pelvic floor", "core", "strength"]
+  },
+  {
+    "id": "plank-hip-dips",
+    "exercise": "Plank Hip Dips",
+    "instructions": "From a forearm plank, rotate hips side to side, lightly tapping the floor while keeping core engaged.",
+    "image": "src/assets/exercises/plank-hip-dips.gif",
+    "tags": ["pelvic floor", "core", "strength"]
+  },
+  {
+    "id": "plank-pose",
+    "exercise": "Plank Pose",
+    "instructions": "Start in a push-up position with arms straight. Keep body aligned and engage your pelvic floor.",
+    "image": "src/assets/exercises/plank-pose.gif",
+    "tags": ["pelvic floor", "yoga", "core"]
+  },
+  {
+    "id": "plie-squat",
+    "exercise": "Plie Squat",
+    "instructions": "Stand with feet wider than hip-width and toes turned out. Lower into a squat while engaging pelvic floor.",
+    "image": "src/assets/exercises/plie-squat.gif",
+    "tags": ["pelvic floor", "lower body", "strength"]
+  },
+  {
+    "id": "push-up",
+    "exercise": "Push Up",
+    "instructions": "Lower your body from a plank position until elbows bend to 90 degrees, then push back up.",
+    "image": "src/assets/exercises/push-up.gif",
+    "tags": ["pelvic floor", "upper body", "strength"]
+  },
+  {
+    "id": "reclining-bound-angle-pose",
+    "exercise": "Reclining Bound Angle Pose",
+    "instructions": "Lie on your back, bring soles of feet together, and let knees fall outward. Relax and breathe deeply.",
+    "image": "src/assets/exercises/reclining-bound-angle-pose.gif",
+    "tags": ["pelvic floor", "yoga", "stretch"]
+  },
+  {
+    "id": "scissor-kick",
+    "exercise": "Scissor Kick",
+    "instructions": "Lie on your back, lift both legs slightly off the floor, and alternate crossing them over each other.",
+    "image": "src/assets/exercises/scissor-kick.gif",
+    "tags": ["pelvic floor", "core", "strength"]
+  },
+  {
+    "id": "shoulder-bridge",
+    "exercise": "Shoulder Bridge",
+    "instructions": "Lie on your back with knees bent. Press through heels to lift hips toward the ceiling, then lower slowly.",
+    "image": "src/assets/exercises/shoulder-bridge.gif",
+    "tags": ["pelvic floor", "glutes", "core"]
+  },
+  {
+    "id": "side-lunge",
+    "exercise": "Side Lunge",
+    "instructions": "Step one foot out to the side and bend that knee while keeping the other leg straight. Push back to start.",
+    "image": "src/assets/exercises/side-lunge.gif",
+    "tags": ["pelvic floor", "lower body", "strength"]
+  },
+  {
+    "id": "side-lying-leg-raise",
+    "exercise": "Side Lying Leg Raise",
+    "instructions": "Lie on your side with legs straight. Lift the top leg upward, then lower with control.",
+    "image": "src/assets/exercises/side-lying-leg-raise.gif",
+    "tags": ["pelvic floor", "glutes", "toning"]
+  },
+  {
+    "id": "side-lying-leg-lifts",
+    "exercise": "Side-lying Leg Lifts",
+    "instructions": "Lie on your side and lift your top leg repeatedly while keeping hips stacked and core engaged.",
+    "image": "src/assets/exercises/side-lying-leg-lifts.gif",
+    "tags": ["pelvic floor", "glutes", "strength"]
+  },
+  {
+    "id": "single-leg-bridge",
+    "exercise": "Single Leg Bridge",
+    "instructions": "From a bridge position, extend one leg and lift hips upward using the grounded heel.",
+    "image": "src/assets/exercises/single-leg-bridge.gif",
+    "tags": ["pelvic floor", "glutes", "core"]
+  },
+  {
+    "id": "sit-ups",
+    "exercise": "Sit-Ups",
+    "instructions": "Lie on your back with knees bent. Lift your torso toward your knees, then lower back down.",
+    "image": "src/assets/exercises/sit-ups.gif",
+    "tags": ["pelvic floor", "core", "strength"]
+  },
+  {
+    "id": "slow-squeeze",
+    "exercise": "Slow Squeeze",
+    "instructions": "Tighten your pelvic floor muscles slowly, hold for 5–10 seconds, then fully relax.",
+    "image": "src/assets/exercises/slow-squeeze.gif",
+    "tags": ["pelvic floor", "kegel", "beginner"]
+  },
+  {
+    "id": "sphinx-pose",
+    "exercise": "Sphinx Pose",
+    "instructions": "Lie on your stomach and prop yourself up on your forearms. Lift chest gently and hold.",
+    "image": "src/assets/exercises/sphinx-pose.gif",
+    "tags": ["pelvic floor", "yoga", "stretch"]
+  },
+  {
+    "id": "squat",
+    "exercise": "Squat",
+    "instructions": "Stand with feet shoulder-width apart. Lower hips back and down, then return to standing.",
+    "image": "src/assets/exercises/squat.gif",
+    "tags": ["pelvic floor", "lower body", "strength"]
+  },
+  {
+    "id": "squeeze-and-release",
+    "exercise": "Squeeze & Release",
+    "instructions": "Quickly tighten your pelvic floor muscles, then release immediately. Repeat in controlled pulses.",
+    "image": "src/assets/exercises/squeeze-and-release.gif",
+    "tags": ["pelvic floor", "kegel", "beginner"]
+  },
+  {
+    "id": "standing-hamstring-stretch",
+    "exercise": "Standing Hamstring Stretch",
+    "instructions": "Stand tall and hinge forward at the hips to stretch the back of your legs.",
+    "image": "src/assets/exercises/standing-hamstring-stretch.gif",
+    "tags": ["pelvic floor", "stretch", "flexibility"]
+  },
+  {
+    "id": "standing-heel-raise-kegel",
+    "exercise": "Standing Heel Raise Kegel",
+    "instructions": "Stand upright, lift heels off the floor while engaging pelvic floor muscles, then lower slowly.",
+    "image": "src/assets/exercises/standing-heel-raise-kegel.gif",
+    "tags": ["pelvic floor", "kegel", "balance"]
+  },
+  {
+    "id": "standing-kegel",
+    "exercise": "Standing Kegel",
+    "instructions": "Stand upright and contract pelvic floor muscles. Hold briefly, then relax.",
+    "image": "src/assets/exercises/standing-kegel.gif",
+    "tags": ["pelvic floor", "kegel", "beginner"]
+  },
+  {
+    "id": "sumo-squat",
+    "exercise": "Sumo Squat",
+    "instructions": "Stand with feet wide and toes pointed outward. Lower into a squat while keeping chest upright.",
+    "image": "src/assets/exercises/sumo-squat.gif",
+    "tags": ["pelvic floor", "lower body", "strength"]
+  },
+  {
+    "id": "supine-spinal-twist-pose",
+    "exercise": "Supine Spinal Twist Pose",
+    "instructions": "Lie on your back, bring one knee across your body, and extend the opposite arm out to the side.",
+    "image": "src/assets/exercises/supine-spinal-twist-pose.gif",
+    "tags": ["pelvic floor", "yoga", "stretch"]
+  },
+  {
+    "id": "the-hundred",
+    "exercise": "The Hundred",
+    "instructions": "Lie on your back, lift legs and shoulders slightly, and pump arms up and down while breathing steadily.",
+    "image": "src/assets/exercises/the-hundred.gif",
+    "tags": ["pelvic floor", "pilates", "core"]
+  },
+    {
+        "id": "triangle-pose",
+        "exercise": "Triangle Pose",
+        "instructions": "Stand with legs wide apart. Reach one hand toward your front foot and extend the other arm upward, keeping your chest open.",
+        "image": "src/assets/exercises/triangle-pose.gif",
+        "tags": ["exercise"]
+    },
+    {
+        "id": "wall-sit",
+        "exercise": "Wall Sit",
+        "instructions": "Stand against a wall and slide down until knees are bent at 90 degrees. Hold the position while keeping core engaged.",
+        "image": "src/assets/exercises/wall-sit.gif",
+        "tags": ["exercise"]
+    },
+    {
+        "id": "warrior-ii",
+        "exercise": "Warrior II",
+        "instructions": "Step one foot back and bend the front knee. Extend arms parallel to the floor and gaze over the front hand.",
+        "image": "src/assets/exercises/warrior-ii.gif",
+        "tags": ["exercise"]
+    },
+    {
+        "id": "warrior-iii",
+        "exercise": "Warrior III",
+        "instructions": "Balance on one leg while extending the other leg straight back and arms forward. Keep hips level and core engaged.",
+        "image": "src/assets/exercises/warrior-iii.gif",
+        "tags": ["exercise"]
+    },
+    {
+        "id": "alternating-jump-lunges",
+        "exercise": "Alternating Jump Lunges",
+        "instructions": "Start in a lunge position and jump upward, switching legs mid-air. Land softly and repeat.",
+        "image": "src/assets/exercises/alternating-jump-lunges.gif",
+        "tags": ["exercise"]
+    },
+    {
+        "id": "bird-dog",
+        "exercise": "Bird Dog",
+        "instructions": "Start on hands and knees. Extend one arm and the opposite leg while keeping hips level. Return and switch sides.",
+        "image": "src/assets/exercises/bird-dog.gif",
+        "tags": ["exercise"]
+    },
+    {
+        "id": "bow-pose",
+        "exercise": "Bow Pose",
+        "instructions": "Lie on your stomach, bend your knees, and hold your ankles. Lift chest and thighs off the floor while breathing steadily.",
+        "image": "src/assets/exercises/bow-pose.gif",
+        "tags": ["exercise"]
+    },
+    {
+        "id": "bridge-pose",
+        "exercise": "Bridge Pose",
+        "instructions": "Lie on your back with knees bent and feet flat on the floor. Lift hips upward while engaging glutes and core, then lower slowly.",
+        "image": "src/assets/exercises/bridge-pose.gif",
+        "tags": ["exercise"]
+    },
+    {
+        "id": "butterfly-stretch",
+        "exercise": "Butterfly Stretch",
+        "instructions": "Sit with soles of feet together and knees bent outward. Gently press knees toward the floor while keeping back straight.",
+        "image": "src/assets/exercises/butterfly-stretch.gif",
+        "tags": ["exercise"]
+    },
+    {
+        "id": "camel-pose",
+        "exercise": "Camel Pose",
+        "instructions": "Kneel upright and gently arch your back, reaching hands toward your heels. Keep chest lifted and neck neutral.",
+        "image": "src/assets/exercises/camel-pose.gif",
+        "tags": ["exercise"]
+    },
+    {
+        "id": "cat-cow-pose",
+        "exercise": "Cat Cow Pose",
+        "instructions": "On hands and knees, alternate between arching your back upward (cat) and dropping your belly while lifting your head (cow).",
+        "image": "src/assets/exercises/cat-cow-pose.gif",
+        "tags": ["exercise"]
+    },
+    {
+        "id": "chair-pose",
+        "exercise": "Chair Pose",
+        "instructions": "Stand with feet together, bend knees, and lower hips as if sitting back into a chair. Raise arms overhead and hold.",
+        "image": "src/assets/exercises/chair-pose.gif",
+        "tags": ["exercise"]
+    },
+    {
+        "id": "childs-pose",
+        "exercise": "Child's Pose",
+        "instructions": "Kneel on the floor, sit back on your heels, and stretch arms forward while lowering your chest toward the floor.",
+        "image": "src/assets/exercises/childs-pose.gif",
+        "tags": ["exercise"]
+    },
+    {
+        "id": "butterfly-yoga-pose",
+        "exercise": "Butterfly Pose",
+        "instructions": "Sit upright with the soles of your feet together and knees bent outward. Hold your feet and gently press your knees toward the floor while keeping your back straight.",
+        "image": "src/assets/exercises/butterfly-pose.gif",
+        "tags": ["stretch", "hips", "pelvic floor", "mobility"]
+    },
+    {
+        "id": "frog-crunch",
+        "exercise": "Frog Crunch",
+        "instructions": "Lie on your back with soles of feet together and knees apart. Engage your core and lift your shoulders off the floor while bringing your chest toward your hips.",
+        "image": "src/assets/exercises/frog-crunch.gif",
+        "tags": ["core", "abs", "pelvic floor"]
+    },
+    {
+        "id": "rocking-frog-stretch",
+        "exercise": "Rocking Frog Stretch",
+        "instructions": "Start on all fours with knees wide and feet outward. Lower onto your forearms and gently rock your hips back and forth to stretch the inner thighs and pelvic area.",
+        "image": "src/assets/exercises/rocking-frog-stretch.gif",
+        "tags": ["stretch", "inner thighs", "pelvic floor", "mobility"]
+    },
+    {
+        "id": "kneeling-hip-thrust",
+        "exercise": "Kneeling Hip Thrust",
+        "instructions": "Kneel upright with knees hip-width apart. Drive your hips forward while squeezing your glutes, then return to the starting position with control.",
+        "image": "src/assets/exercises/kneeling-hip-thrust.gif",
+        "tags": ["glutes", "hips", "pelvic floor"]
+    },
+    {
+        "id": "shin-box-switch",
+        "exercise": "Shin Box Switch",
+        "instructions": "Sit with one leg bent in front and the other behind at 90 degrees. Rotate your hips to switch sides without lifting your feet off the floor.",
+        "image": "src/assets/exercises/shin-box-switch.gif",
+        "tags": ["hip mobility", "core", "pelvic floor"]
+    },
+    {
+        "id": "bridge-hip-abduction",
+        "exercise": "Bridge Hip Abduction",
+        "instructions": "Perform a glute bridge and, at the top, move your knees outward against tension before bringing them back together and lowering down.",
+        "image": "src/assets/exercises/bridge-hip-abduction.gif",
+        "tags": ["glutes", "pelvic floor", "hips", "core"]
+    }
+]

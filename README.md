@@ -30,6 +30,17 @@ npm run build:pages
 npm run preview
 ```
 
+## PWA (Progressive Web App)
+
+The app is a PWA and can be installed on your phone or desktop:
+
+1. Deploy the app to GitHub Pages (or run locally with HTTPS)
+2. Open the app URL in Chrome (Android) or Safari (iOS)
+3. **Android**: Tap the "Add to Home screen" prompt or use the browser menu → "Install app"
+4. **iOS**: Tap the Share button → "Add to Home Screen"
+
+Once installed, the app runs in standalone mode (full screen, no browser UI) and works offline for cached content.
+
 ---
 
 # React + Vite
