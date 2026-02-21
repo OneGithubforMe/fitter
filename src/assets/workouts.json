@@ -1,0 +1,54 @@
+{
+    "workouts": [
+      {
+        "name": "Pelvic - Floor Activation Basics",
+        "exercises": [
+          {
+            "exercise": "Kegels (Slow Contractions)",
+            "instructions": "Sit or lie down comfortably. Tighten your pelvic floor muscles as if stopping urine flow. Hold for 5 seconds, then relax for 5 seconds. Repeat 10 times.",
+            "image": "https://onlinedoctor.lloydspharmacy.com/blob/119558/9d9ceeacc5160e5cb3a1c4311aece35a/kegels-exercises-for-men---picture-"
+          },
+          {
+            "exercise": "Glute Bridge with Pelvic Engagement",
+            "instructions": "Lie on your back with knees bent and feet flat. Engage your pelvic floor, then lift your hips toward the ceiling. Hold for 3 seconds and slowly lower down.",
+            "image": "https://images.pexels.com/photos/3823039/pexels-photo-3823039.jpeg"
+          },
+          {
+            "exercise": "Supine March with Pelvic Stability",
+            "instructions": "Lie on your back with knees bent. Engage your pelvic floor and slowly lift one foot off the ground, keeping hips stable. Lower and alternate sides.",
+            "image": "https://images.pexels.com/photos/4324021/pexels-photo-4324021.jpeg"
+          }
+        ]
+      },
+      {
+        "name": "Pelvic Floor Strength & Stability",
+        "exercises": [
+          {
+            "exercise": "Kegels (Quick Pulses)",
+            "instructions": "Quickly tighten and release your pelvic floor muscles. Perform 10 rapid contractions, rest, then repeat for 3 rounds.",
+            "image": "https://onlinedoctor.lloydspharmacy.com/blob/119558/9d9ceeacc5160e5cb3a1c4311aece35a/kegels-exercises-for-men---picture-"
+          },
+          {
+            "exercise": "Bird Dog with Pelvic Control",
+            "instructions": "Start on hands and knees. Engage your pelvic floor, extend opposite arm and leg, hold for 3–5 seconds, then return. Alternate sides.",
+            "image": "https://images.pexels.com/photos/3823039/pexels-photo-3823039.jpeg"
+          },
+          {
+            "exercise": "Wall Sit with Pelvic Engagement",
+            "instructions": "Stand with your back against a wall and slide down into a seated position. Engage your pelvic floor and hold for 20–30 seconds while breathing steadily.",
+            "image": "https://images.pexels.com/photos/4324021/pexels-photo-4324021.jpeg"
+          }
+        ]
+      }, 
+      {
+        "name": "Pelvic - Floor Activation Basics 2",
+        "exercises": [
+          {
+            "exercise": "Kegels (Slow Contractions)",
+            "instructions": "Sit or lie down comfortably. Tighten your pelvic floor muscles as if stopping urine flow. Hold for 5 seconds, then relax for 5 seconds. Repeat 10 times.",
+            "image": "https://onlinedoctor.lloydspharmacy.com/blob/119558/9d9ceeacc5160e5cb3a1c4311aece35a/kegels-exercises-for-men---picture-"
+          }
+        ]
+      }
+    ]
+  }
